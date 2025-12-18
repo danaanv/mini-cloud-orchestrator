@@ -1,6 +1,6 @@
 # mini-cloud-orchestrator
 
-Este proyecto corresponde al Proyecto 1 de la ruta de preparación para TEL141, y consiste en implementar un Mini Cloud Orchestrator que gestione el ciclo de vida de máquinas virtuales utilizando Python, libvirt y KVM. El objetivo es construir una base sólida en orquestación, virtualización y redes L2 antes de avanzar hacia placement inteligente, GitOps o telemetría avanzada.
+Consiste en implementar un Mini Cloud Orchestrator que gestione el ciclo de vida de máquinas virtuales utilizando Python, libvirt y KVM. El objetivo es construir una base sólida en orquestación, virtualización y redes L2 antes de avanzar hacia placement inteligente, GitOps o telemetría avanzada.
 
 El orquestador permite crear, eliminar y administrar slices, entendidos como conjuntos de VMs conectadas mediante una topología definida (lineal, anillo, etc.) y unidas a través de un bridge de Linux que actúa como switch virtual. También incorpora un sistema de persistencia en JSON para almacenar la configuración y el estado de cada slice.
 
